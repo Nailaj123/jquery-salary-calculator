@@ -1,8 +1,12 @@
 .red-background {
     background-color: red;
 }
+body{
+  background-color: #A52A2A;
+}
 
-th {
+
+/* th {
     text-align: left;
 }
 
@@ -13,6 +17,7 @@ th {
 }
 
 table {
+  text-align:
     border-collapse: collapse;
     width: 100%;
 }
@@ -22,6 +27,9 @@ tr.even {
     background-color: blue;
 }
 
-/* body {
+h1{
+  text-align: center;
+}
+ body {
     background-color: bisque;
-} */
+}
