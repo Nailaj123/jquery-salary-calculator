@@ -1,0 +1,27 @@
+.red-background {
+    background-color: red;
+}
+
+th {
+    text-align: left;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr.even {
+    text-align: left;
+    background-color: blue;
+}
+
+/* body {
+    background-color: bisque;
+} */
