@@ -5,8 +5,7 @@ body{
   background-color: #A52A2A;
 }
 
-
-/* th {
+th {
     text-align: left;
 }
 
@@ -19,7 +18,7 @@ th {
 table {
   text-align:
     border-collapse: collapse;
-    width: 100%;
+    width:100%;
 }
 
 tr.even {
@@ -29,7 +28,4 @@ tr.even {
 
 h1{
   text-align: center;
-}
- body {
-    background-color: bisque;
 }

@@ -1,5 +1,7 @@
 $(document).ready(onReady);
-document.getElementById("myTable");
+// document.getElementById("myTable");
+
+// let myTable = document.getElementById("myTable");
 
 function onReady() {
     $('#submit').on('click', submitEmployee);
@@ -41,9 +43,9 @@ function submitEmployee() {
 
     $('#monthlyTotal').remove();
     if (monthlyCost > 20000) {
-        $('#total').append(`<p id ="monthlyTotal" class = "red-background">monthlyTotal: ${monthlyCost}</p>`)
+        $('#total').append(`<p id ="monthlyTotal" class = "red-background">monthly Total: ${monthlyCost}</p>`)
     } else {
-        $('#total').append(`<p id ="monthlyTotal">monthlyTotal: ${monthlyCost}</p>`)
+        $('#total').append(`<p id ="monthlyTotal">monthly Total: ${monthlyCost}</p>`)
 
     }
     displayPeople();
@@ -61,27 +63,7 @@ function displayPeople() {
         </li>
         `)
         console.log('in displayPeople');
+        // let row = document.getElementById("myTable");
     }
 
 }
-
-// function salary() {
-//     let monthlyCost = 0;
-//     // console.log('in Salary');
-//     for (let i = 0; i < employee.length; i++) {
-//         monthlyCost = monthlyCost + employee[i].annualSalary;
-//         //console.log(annualSalary);
-//     }
-
-
-//     monthlyCost = monthlyCost / 12;
-
-//     $('#monthlyTotal').remove();
-//     if (monthlyCost > 20000) {
-//         $('#total').append(`<p id ="monthlyTotal" class = "red-background">monthlyTotal: ${monthlyCost}</p>`)
-//     } else {
-//         $('#total').append(`<p id ="monthlyTotal">monthlyTotal: ${monthlyCost}</p>`)
-
-//     }
-//     displayPeople();
-// }
